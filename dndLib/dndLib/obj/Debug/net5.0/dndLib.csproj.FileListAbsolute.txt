@@ -1,0 +1,12 @@
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\bin\Debug\net5.0\dndLib.deps.json
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\bin\Debug\net5.0\dndLib.dll
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\bin\Debug\net5.0\ref\dndLib.dll
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\bin\Debug\net5.0\dndLib.pdb
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.csprojAssemblyReference.cache
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.AssemblyInfoInputs.cache
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.AssemblyInfo.cs
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.csproj.CoreCompileInputs.cache
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.dll
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\ref\dndLib.dll
+C:\Users\Andrea Tani\Dropbox\Sviluppo\dnd-testplay\dndLib\dndLib\obj\Debug\net5.0\dndLib.pdb
