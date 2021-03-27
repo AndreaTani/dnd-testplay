@@ -16,7 +16,6 @@ namespace dndLib
 
         private bool adv = false;
         private bool dis = false;
-        private bool luck = false;
         private DnType thrtype;
         private IDnDice singleDie;
         private string diceString;
@@ -50,8 +49,8 @@ namespace dndLib
 
         public int Throw()
         {
-            int result = 1;
-            List<IDnDice> throws = new List<IDnDice>();
+            int result;
+            DnDiceGroup diceGroup;
 
             if (thrtype == DnType.SingleDie)
             {
@@ -64,6 +63,16 @@ namespace dndLib
                         result = r;
                     }
                 }
+            } 
+            else //if (thrtype == DnType.DiceString)
+            {
+                result = 0;
+                diceGroup = new DnDiceGroup(diceString);
+                foreach(var d in diceGroup.GetDice())
+                {
+                    result += d.Roll();
+                }
+                result += diceGroup.GetBonus();
             }
 
             return result;

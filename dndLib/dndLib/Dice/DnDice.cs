@@ -5,6 +5,7 @@ namespace dndLib
     public class DnDice : IDnDice
     {
         private int sides;
+        static Random rnd = new Random((int)DateTime.UtcNow.Ticks);
 
         public int GetSides()
         {
@@ -18,8 +19,7 @@ namespace dndLib
 
         public int Roll()
         {
-            Random random = new Random((int)DateTime.UtcNow.Ticks);
-            int value = random.Next(1, GetSides() + 1);
+            int value = rnd.Next(1, GetSides() + 1);
             return value;
         }
 
