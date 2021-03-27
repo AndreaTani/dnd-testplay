@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrea Tani\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj": {}
+    "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrea Tani\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj": {
+    "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrea Tani\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
+        "projectUniqueName": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
         "projectName": "dndLib",
-        "projectPath": "C:\\Users\\Andrea Tani\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
-        "packagesPath": "C:\\Users\\Andrea Tani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrea Tani\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\obj\\",
+        "projectPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
+        "packagesPath": "C:\\Users\\Ata_77\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrea Tani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ata_77\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,8 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/prelios/PreliosCommonLibrary/_packaging/PreliosFeed/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

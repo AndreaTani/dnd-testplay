@@ -1,6 +1,6 @@
 ﻿namespace dndLib
 {
-    public class D8 : Dice
+    public class D8 : DnDice
     {
         public D8()
         {

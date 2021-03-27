@@ -2,7 +2,7 @@
 
 namespace dndLib
 {
-    public class Dice
+    public class DnDice : IDnDice
     {
         private int sides;
 
@@ -21,6 +21,11 @@ namespace dndLib
             Random random = new Random((int)DateTime.UtcNow.Ticks);
             int value = random.Next(1, GetSides() + 1);
             return value;
+        }
+
+        public override string ToString()
+        {
+            return String.Format("D{0}", sides);
         }
     }
 }

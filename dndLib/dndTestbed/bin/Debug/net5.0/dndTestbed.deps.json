@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "dndTestbed/1.0.0": {
+        "dependencies": {
+          "dndLib": "1.0.0"
+        },
+        "runtime": {
+          "dndTestbed.dll": {}
+        }
+      },
+      "dndLib/1.0.0": {
+        "runtime": {
+          "dndLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dndTestbed/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dndLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

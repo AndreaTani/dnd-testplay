@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "dndLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/dndLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dndLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "dndLib/1.0.0": {
+      "type": "project",
+      "path": "../dndLib/dndLib.csproj",
+      "msbuildProject": "../dndLib/dndLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "dndLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ata_77\\.nuget\\packages\\": {},
@@ -15,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
-      "projectName": "dndLib",
-      "projectPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj",
+      "projectUniqueName": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndTestbed\\dndTestbed.csproj",
+      "projectName": "dndTestbed",
+      "projectPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndTestbed\\dndTestbed.csproj",
       "packagesPath": "C:\\Users\\Ata_77\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\obj\\",
+      "outputPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndTestbed\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj": {
+              "projectPath": "C:\\Users\\Ata_77\\Dropbox\\Sviluppo\\dnd-testplay\\dndLib\\dndLib\\dndLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
