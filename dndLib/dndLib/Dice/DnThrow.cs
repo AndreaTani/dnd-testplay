@@ -63,16 +63,20 @@ namespace dndLib
                         result = r;
                     }
                 }
-            } 
-            else //if (thrtype == DnType.DiceString)
+            }
+            else if (thrtype == DnType.DiceString)
             {
                 result = 0;
                 diceGroup = new DnDiceGroup(diceString);
-                foreach(var d in diceGroup.GetDice())
+                foreach (var d in diceGroup.GetDice())
                 {
                     result += d.Roll();
                 }
                 result += diceGroup.GetBonus();
+            }
+            else
+            {
+                result = 0;
             }
 
             return result;
